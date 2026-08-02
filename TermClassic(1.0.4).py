@@ -99,19 +99,7 @@ def cmd_pkg():
             break
         else:
             print("Неверная команда.")
-
-
-
-
-
-    
-
-
-      
-      
-      
-    
-   
+            
 def cmd_uptime():
     elapsed = int(time.time() - start_time)
     minutes = elapsed // 60
